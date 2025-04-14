@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { GoogleTagManager } from "@/components/GoogleTagManager";
+import { GoogleTagManager } from "../components/GoogleTagManager";
 
 export const metadata: Metadata = {
   title: "Pluma | Organização e foco para sua prática clínica",
