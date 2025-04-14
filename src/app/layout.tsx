@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { GoogleTagManager } from "@/components/GoogleTagManager";
 
 export const metadata: Metadata = {
   title: "Pluma | Organização e foco para sua prática clínica",
@@ -13,6 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        <GoogleTagManager />
+      </head>
       <body>{children}</body>
     </html>
   );
