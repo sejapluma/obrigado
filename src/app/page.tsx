@@ -19,18 +19,18 @@ export default function Home() {
             Parabéns!
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            Você acabou de dar um passo importante para transformar sua jornada profissional.
+            Você acabou de dar um passo em direção a uma rotina mais leve!
           </p>
 
           {/* Barra de Progresso */}
           <div className="max-w-md mx-auto mb-8">
             <div className="flex justify-between text-sm mb-2">
-              <span className="text-gray-600">Acesso ao Produto</span>
-              <span className="text-[#9177FF] font-medium">100%</span>
+              <span className="text-gray-600">Acesso ao produto</span>
+              <span className="text-[#9177FF] font-medium">94%</span>
             </div>
             <div className="h-2 bg-white rounded-full shadow-inner">
               <div className="h-full bg-gradient-to-r from-[#9177FF] to-[#7B61FF] rounded-full transition-all duration-1000 ease-out"
-                   style={{ width: '100%' }}></div>
+                   style={{ width: '94%' }}></div>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Home() {
                 <span className="text-[#9177FF] font-medium">2</span>
               </div>
               <p className="text-gray-600">
-                Entre no nosso grupo exclusivo do WhatsApp para receber suporte
+                Entre no grupo exclusivo do WhatsApp e faça parte da Comunidade de Psicólogas Empreendedoras
               </p>
             </div>
             <div className="flex items-center gap-4 text-left">
@@ -62,7 +62,10 @@ export default function Home() {
                 <span className="text-[#9177FF] font-medium">3</span>
               </div>
               <p className="text-gray-600">
-                Comece sua jornada de transformação agora mesmo!
+                Siga a Pluma no Instagram e acompanhe nossos projetos
+                <a href="https://www.instagram.com/sejapluma/" className="text-[#9177FF] hover:text-[#7B61FF] transition-colors block mt-1">
+                  https://www.instagram.com/sejapluma/
+                </a>
               </p>
             </div>
           </div>
